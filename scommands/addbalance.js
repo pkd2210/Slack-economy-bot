@@ -1,5 +1,4 @@
 const sqlite3 = require('sqlite3').verbose();
-const config = require('../config.json');
 
 module.exports = (app) => {
     app.command('/addbalance', async ({ command, ack, respond }) => {
