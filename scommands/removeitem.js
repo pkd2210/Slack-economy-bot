@@ -15,7 +15,7 @@ module.exports = (app) => {
         const itemId = args[0];
 
         const userdb = new sqlite3.Database('./items.db');
-        userdb.run('DELETE FROM item WHERE id = ?', [itemId], function(err) {
+        userdb.run('DELETE FROM items WHERE id = ?', [itemId], function(err) {
             if (err) {
                 userdb.close();
                 return respond({
