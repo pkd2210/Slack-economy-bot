@@ -1,12 +1,12 @@
 {
-    "default_balance": "0",
-    "log_channel_id": "",
-    "balance_per_message": "0",
-    "messages_cooldown_secends": 0,
+    "default_balance": "50",
+    "log_channel_id": "1389251443885867199",
+    "balance_per_message": "1",
+    "messages_cooldown_secends": 5,
     "leaderboard_limit": 10,
-    "daily_payout": "0",
+    "daily_payout": "50",
     "embed_color": "#FFFFFF",
-    "reward_room": "",
+    "reward_room": "1389251945797124177",
     "slack_reward_room": "C095S525GD8",
     "reward_giver_id": ""
 }

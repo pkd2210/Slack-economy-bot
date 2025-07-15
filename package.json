@@ -1,8 +1,8 @@
 {
-  "name": "slack-economy-bot",
+  "name": "slack-discord-economy-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "slackindex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,9 @@
   "homepage": "https://github.com/pkd2210/Slack-economy-bot#readme",
   "dependencies": {
     "@slack/bolt": "^4.4.0",
+	"@discordjs/rest": "^2.5.1",
+	"discord-api-types": "^0.38.12",
+	"discord.js": "^14.20.0",
     "dotenv": "^17.1.0",
     "sqlite3": "^5.1.7"
   }
